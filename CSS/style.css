@@ -1,0 +1,30 @@
+/*
+#id
+.class
+tag
+*/
+
+
+body {
+    color: #000;
+    background-color: aquamarine;
+    background-image: url(https://static.ndmais.com.br/2025/05/lua-2-1200x675.jpg);
+
+    background-repeat: no-repeat;
+    /*repeat, no-repeat, repeat-x, repeat-y*/
+    background-position: right top;
+    /*left, right, top, bottom, center (x-horizontal, y-vertical)*/
+    background-attachment: fixed;
+    /*Scrool/ fixed*/
+
+    /*Shorthand - jeito curto de escrever algo no css
+    background: color image repeat attachemnt position
+    */
+    /* background: aquamarine url(https://static.ndmais.com.br/2025/05/lua-2-1200x675.jpg) no-repeat fixed right top; */
+    background-size: 50%;
+    /*(x,y)*/
+}
+
+#txtalinhamento{
+    text-align: justify;/*left, right, center, justify*/
+}
