@@ -27,4 +27,5 @@ body {
 
 #txtalinhamento{
     text-align: justify;/*left, right, center, justify*/
+    text-indent: 20px;/*espaço de parágrafo*/
 }
