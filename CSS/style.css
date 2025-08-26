@@ -29,3 +29,37 @@ body {
     text-align: justify;/*left, right, center, justify*/
     text-indent: 20px;/*espaço de parágrafo*/
 }
+
+a{
+    color: orange;
+    text-decoration-line: underline;
+    /* da linha - overline, underline, line-through, none*/
+    text-decoration-color: red;/*Cor da decoração de texto*/
+    text-decoration-style: dashed;/*estilo da decoração - solid, dotted, dashed, double, inherit, wavy*/
+    text-decoration-thickness: 5px;/*Espessura da linha de decoração*/
+
+    /*shorthand 
+        text-decoration: line color style thickness;
+    */
+
+    /* text-decoration: underline blue dashed 25px; */
+
+}
+
+a:hover{
+    /*Pseudoclasse - adiciona um estado especial - hover (passar do mouse)*/
+    background-color: grey;
+}
+
+a:visited{
+    color: rgb(25, 70, 169);
+}
+
+/* img:hover{
+    width: 500px;
+    cursor: pointer;/*Trnasformando o cursor em ponteiro de click*/
+
+
+ p{
+    text-transform: capitalize;/*Trnasformação do texto - Uppercase, lowercase, capitalize*/
+ }   
