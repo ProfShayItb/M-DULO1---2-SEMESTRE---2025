@@ -1,0 +1,25 @@
+/* Selecionar o elemento html de 3 maneiras
+
+- tag
+- #id
+- .class
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    
+   font-family: "Roboto", sans-serif; /*Família das fontes*/
+   font-style: normal;/*normal, italic, oblique, inherit*/
+   font-weight: 500;/*Peso da fonte - 100 a 900, lighter, bold, bolder*/
+   color: red;/*cor da fonte*/
+   font-size: 1em;/*em, %, rem, px*/
+   font-variant: normal;/*normal, small-caps, initial*/
+   /*
+        shorthand: 
+        font: style variant weight size family;
+   
+   */
+   font: normal 500 1em "Roboto", sans-serif;
+
+}
