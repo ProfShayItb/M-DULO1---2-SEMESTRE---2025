@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(67, 201, 96), rgb(8, 169, 38)) ;/*(direção, corquecomeça, corquetermina)*/
+
+    /*Padding - espaço dentro da caixa*/
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+    /*padding: top right bottom left*/
+    padding: 20px 100px 50px 100px;
+
+
+
+
+}
+
+h1{
+    color: white;
+   
+    
+}
