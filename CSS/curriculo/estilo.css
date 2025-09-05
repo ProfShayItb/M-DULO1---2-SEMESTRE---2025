@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
 header{
     text-align: center;
     background-image: linear-gradient(to right, rgb(67, 201, 96), rgb(8, 169, 38)) ;/*(direção, corquecomeça, corquetermina)*/
@@ -5,14 +13,28 @@ header{
     /*Padding - espaço dentro da caixa*/
     padding-top: 20px;
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 100px;
 
     /*padding: top right bottom left*/
-    padding: 20px 100px 50px 100px;
+    padding: 20px 100px;
 
+    /*Margin - Espaço fora da caixa*/
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    margin-left: 80px;
 
+    margin: 50px;/*4 lados iguais*/
+    margin: 30px 100px;
+    margin: 50px 60px 70px 80px;
 
+    /*border*/
+    border-color: red;/*cor da borda*/
+    border-style: double;/*estilo do tracejado - solid, dashed, dotted, wavy, double*/
+    border-width: 5px;/*Espessura da borda*/
+
+    border: 5px double red;/*border - width style color*/
 
 }
 
